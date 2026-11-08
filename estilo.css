@@ -73,7 +73,7 @@ body.n-imobiliarias {
 }
 
 .marca-creci {
-  font-size: 0.78rem;
+  font-size: .875rem;
   font-weight: 600;
   color: var(--imob-tinta-suave);
   background: var(--imob-cinza);
@@ -163,7 +163,7 @@ body.n-imobiliarias {
 
 .dobra-moldura-foto figcaption {
   padding: 10px 16px;
-  font-size: 0.85rem;
+  font-size: .875rem;
   color: var(--imob-tinta-suave);
   background: var(--imob-branco);
   border-top: 1px solid var(--imob-borda);
@@ -216,7 +216,7 @@ body.n-imobiliarias {
 }
 
 .campo-filtro label {
-  font-size: 0.82rem;
+  font-size: .875rem;
   font-weight: 600;
   color: var(--imob-tinta-suave);
 }
@@ -263,7 +263,7 @@ body.n-imobiliarias {
 }
 
 .rotulo-tags {
-  font-size: 0.85rem;
+  font-size: .875rem;
   font-weight: 600;
   color: var(--imob-tinta-suave);
 }
@@ -276,7 +276,7 @@ body.n-imobiliarias {
 
 .tag-rapida {
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: .875rem;
   font-weight: 600;
   color: var(--imob-petroleo);
   background: var(--imob-cinza);
@@ -340,7 +340,7 @@ body.n-imobiliarias {
   text-decoration: none;
   background: var(--imob-petroleo);
   color: var(--imob-branco);
-  font-size: 0.85rem;
+  font-size: .875rem;
   font-weight: 600;
   padding: 7px 14px;
   border-radius: 6px;
@@ -384,7 +384,7 @@ body.n-imobiliarias {
   left: 12px;
   background: var(--imob-petroleo);
   color: var(--imob-branco);
-  font-size: 0.78rem;
+  font-size: .875rem;
   font-weight: 700;
   padding: 4px 10px;
   border-radius: 4px;
@@ -444,7 +444,7 @@ body.n-imobiliarias {
 }
 
 .imovel-codigo {
-  font-size: 0.8rem;
+  font-size: .875rem;
   color: var(--imob-tinta-suave);
 }
 
@@ -476,7 +476,7 @@ body.n-imobiliarias {
 }
 
 .imovel-ficha dt {
-  font-size: 0.75rem;
+  font-size: .875rem;
   color: var(--imob-tinta-suave);
 }
 
@@ -507,7 +507,7 @@ body.n-imobiliarias {
 }
 
 .imovel-encargos {
-  font-size: 0.76rem;
+  font-size: .875rem;
   color: var(--imob-tinta-suave);
 }
 
@@ -516,7 +516,7 @@ body.n-imobiliarias {
   background: var(--imob-cinza);
   color: var(--imob-petroleo);
   font-weight: 700;
-  font-size: 0.86rem;
+  font-size: .875rem;
   padding: 9px 14px;
   border-radius: 6px;
   white-space: nowrap;
@@ -671,7 +671,7 @@ body.n-imobiliarias {
 }
 
 .campo-form label {
-  font-size: 0.82rem;
+  font-size: .875rem;
   font-weight: 600;
   color: var(--imob-tinta-suave);
 }
@@ -772,7 +772,7 @@ body.n-imobiliarias {
 }
 
 .item-bairro-cab a {
-  font-size: 0.85rem;
+  font-size: .875rem;
   font-weight: 700;
   color: var(--imob-aqua-escuro);
   text-decoration: none;
@@ -864,7 +864,7 @@ body.n-imobiliarias {
   background: var(--imob-petroleo);
   color: var(--imob-branco);
   font-weight: 700;
-  font-size: 0.85rem;
+  font-size: .875rem;
   padding: 5px 12px;
   border-radius: 4px;
   margin-bottom: 14px;
@@ -1007,3 +1007,6 @@ body.n-imobiliarias {
     padding: 16px;
   }
 }
+/* revisão de usabilidade no celular */
+@media (max-width:760px){main :is(button,select,input:not([type=checkbox]):not([type=radio]),.botao){min-height:44px}main label:has(>input[type=radio]),main label:has(>input[type=checkbox]){min-height:40px;display:flex;align-items:center;gap:8px}.nav-imob{display:none}.topo-imob-inner{flex-wrap:nowrap;gap:12px}.marca-creci{display:none}main p:not([class]){font-size:16px}}
+@media (max-width:760px){.item-bairro-cab a,.link-colecao{display:inline-block;padding-block:11px}}
